@@ -1,0 +1,55 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.page .head {
+  height: 124px;
+  border: 1px solid #f3f5f7;
+}
+.page .head .main-title {
+  color: rgb(53, 99, 233);
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 60px;
+}
+.page .head .search {
+  height: 44px;
+  width: 492px;
+}
+.page .head .search-placeholder {
+  border-left: none;
+  border-right: none;
+}
+.page .head .search-placeholder::-moz-placeholder {
+  color: rgb(61, 82, 120);
+}
+.page .head .search-placeholder:-ms-input-placeholder {
+  color: rgb(61, 82, 120);
+}
+.page .head .search-placeholder::placeholder {
+  color: rgb(61, 82, 120);
+}
+.page .head .search-logo {
+  background-color: white;
+  border-radius: 46%;
+}
+.page .head .navbar-item {
+  width: 44px;
+  height: 44px;
+  opacity: 0.8;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 50%;
+}
+.page .base-menu-type {
+  margin: 32px;
+}
+.page .base-menu-type .filter-name {
+  font-weight: 600;
+  font-size: 12px;
+  color: #94a7cb;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+.page .base-right {
+  background-color: #f6f7f9;
+}/*# sourceMappingURL=style.css.map */

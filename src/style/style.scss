@@ -1,0 +1,63 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.page {
+  .head {
+    height: 124px;
+    border: 1px solid #f3f5f7;
+
+    .main-title {
+      color: rgba(53, 99, 233, 1);
+      font-weight: 700;
+      font-size: 32px;
+      margin-left: 60px;
+    }
+
+    .search {
+      height: 44px;
+      width: 492px;
+
+      &-placeholder {
+        border-left: none;
+        border-right: none;
+      }
+      &-placeholder::placeholder {
+        color: rgba(61, 82, 120, 1);
+      }
+
+      &-logo {
+        background-color: white;
+        border-radius: 46%;
+      }
+    }
+    .navbar {
+      &-item {
+        width: 44px;
+        height: 44px;
+        opacity: 0.8;
+        border: 1px solid rgba(195, 212, 233, 0.4);
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .base {
+    &-menu {
+      &-type {
+        margin: 32px;
+        .filter-name {
+          font-weight: 600;
+          font-size: 12px;
+          color: #94a7cb;
+          line-height: 18px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+
+    &-right {
+      background-color: #f6f7f9;
+    }
+  }
+}
